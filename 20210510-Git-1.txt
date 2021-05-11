@@ -1,0 +1,24 @@
+GIT = Sistema de control de versiones.
+--> creado por Linus Torvald.
+se puede usar local o en remoto
+------------------***--------------------
+Bash = terminal. Intérprete de comandos.
+comando bash = comando [argumento[argumento]] -[opciones]
+-----------------------------------------
+pwd = directorio actual
+ls = listar contenido del directorio. opciones --> -a (ocultos) -l (detalles)
+cd = lleva a la raíz o a la ruta especificada. --> .. vuelve un directorio ariba
+touch = crea un archivo
+mkdir = crea un directorio 
+cd = copia archivos --> cd file.ext path/new-name.ext
+cd -r = copia recursiva de todo el contenido de un directorio
+mv = mover directorios o archivos. Si se usa en la misma ruta cambia nombre
+rm = remover archivos (no van a la papelera) --> rm -r (borrar directorio)
+-----------------------------------------
+Git comandos:
+git --version (verifica instalacion)
+git --global user.name "mi nombre"
+git --global user.email correo@correo.com (configura globalmente git)
+git config --list (ver los cambios anteriores)
+
+

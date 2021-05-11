@@ -27,6 +27,15 @@ git status (muestra los archivos disponibles para hacer commit y si hay commits 
 git commit -m 'Mensaje' (carga todos los archivos siendo trackeados para hacer push (enviar) y dejar registrada una versión)
 git log (sirve para revisar el estado del ultimio commit)
 
+REMOTO:
+git push origin main (subir lso cambios al repo remoto. Sube todos los commits en la rama actual)
+git pull origin main (bajar todos los cambios nuevos en el remoto)
+
+origin: remoto registrado en mi proyecto.
+main: la rama main del remoto
+
+git remote (conocer si hay repo remoto para el directorio actual)
+git remote -v (conocer además las url del o los servidores)
 
 NOTA: tuve que usar la configuración locar de user.name y user.email,
 --> porque aunque la global fue configurada correctamente, no me dejó usarla. "author unknown"

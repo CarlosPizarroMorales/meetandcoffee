@@ -21,4 +21,13 @@ git --global user.name "mi nombre"
 git --global user.email correo@correo.com (configura globalmente git)
 git config --list (ver los cambios anteriores)
 
+git init  (en la carpeta local para iniciar un archivo oculto que lleva el control de cambios)
+git add --all  (agrega todos los archivos del directorio luego de git init para hacer tracking)
+git status (muestra los archivos disponibles para hacer commit y si hay commits pendientes)
+git commit -m 'Mensaje' (carga todos los archivos siendo trackeados para hacer push (enviar) y dejar registrada una versión)
+git log (sirve para revisar el estado del ultimio commit)
+
+
+NOTA: tuve que usar la configuración locar de user.name y user.email,
+--> porque aunque la global fue configurada correctamente, no me dejó usarla. "author unknown"
 
